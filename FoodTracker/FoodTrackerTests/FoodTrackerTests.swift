@@ -1,15 +1,15 @@
 //
-//  PracticeAppTests.swift
-//  PracticeAppTests
+//  FoodTrackerTests.swift
+//  FoodTrackerTests
 //
 //  Created by Gregory Steenhagen on 7/11/18.
 //  Copyright © 2018 Gregory Steenhagen. All rights reserved.
 //
 
 import XCTest
-@testable import PracticeApp
+@testable import FoodTracker
 
-class PracticeAppTests: XCTestCase {
+class FoodTrackerTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

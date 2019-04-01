@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  PracticeApp
+//  FirstProject
 //
-//  Created by Gregory Steenhagen on 7/11/18.
-//  Copyright © 2018 Gregory Steenhagen. All rights reserved.
+//  Created by Gregory Steenhagen on 3/31/19.
+//  Copyright © 2019 Gregory Steenhagen. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
