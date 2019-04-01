@@ -26,7 +26,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xce-Rq-28f">
-                                <rect key="frame" x="20" y="109" width="374" height="727"/>
+                                <rect key="frame" x="20" y="109" width="374" height="312"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -40,11 +40,20 @@
                                     <action selector="addItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cFt-Zo-OYi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7Z-rH-Gae">
+                                <rect key="frame" x="150" y="433" width="114" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Clear List"/>
+                                <connections>
+                                    <action selector="clearList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Q0-tx-Xgg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="clearButton" destination="a7Z-rH-Gae" id="yjl-NU-1jG"/>
                         <outlet property="groceryTextView" destination="Xce-Rq-28f" id="RUi-of-4ra"/>
                         <outlet property="textField" destination="6bd-d1-g53" id="fSe-fQ-Vna"/>
                     </connections>
