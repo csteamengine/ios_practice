@@ -14,6 +14,7 @@
 		BADE091622519C6000BCB400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADE091422519C6000BCB400 /* LaunchScreen.storyboard */; };
 		BADE092122519C6000BCB400 /* FirstProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADE092022519C6000BCB400 /* FirstProjectTests.swift */; };
 		BADE092C22519C6000BCB400 /* FirstProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADE092B22519C6000BCB400 /* FirstProjectUITests.swift */; };
+		BADE093A2252FE8F00BCB400 /* GroceryItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADE09392252FE8F00BCB400 /* GroceryItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BADE092722519C6000BCB400 /* FirstProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADE092B22519C6000BCB400 /* FirstProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstProjectUITests.swift; sourceTree = "<group>"; };
 		BADE092D22519C6000BCB400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADE09392252FE8F00BCB400 /* GroceryItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BADE091222519C6000BCB400 /* Assets.xcassets */,
 				BADE091422519C6000BCB400 /* LaunchScreen.storyboard */,
 				BADE091722519C6000BCB400 /* Info.plist */,
+				BADE09392252FE8F00BCB400 /* GroceryItemTableViewCell.swift */,
 			);
 			path = FirstProject;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BADE090E22519C5F00BCB400 /* ViewController.swift in Sources */,
+				BADE093A2252FE8F00BCB400 /* GroceryItemTableViewCell.swift in Sources */,
 				BADE090C22519C5F00BCB400 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
